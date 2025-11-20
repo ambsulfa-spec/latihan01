@@ -9,7 +9,7 @@ st.title("data visualization")
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 # plot data 
-fig, ax = plt.subplot()
+fig, ax = plt.subplots()
 ax.plot(x, y)
 # display the plot
 st.pyplot(fig)
