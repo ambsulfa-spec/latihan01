@@ -7,7 +7,7 @@ pages = [
 ]
 
 
-pg = st.nagivation(
+pg = st.navigation(
     pages,
     position="sidebar",
     expanded=True
